@@ -1,0 +1,78 @@
+ /* body{
+    margin: 0;
+}
+.box{
+    height: 30px;
+    padding: 10px;
+    background-color: aqua;
+}
+.box:nth-child(even){
+    background-color: black;
+}
+.container{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-columns: 200px 300px 400px;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: repeat(3 1fr);
+    height: 600px;
+}
+.one{
+    background-color: orange;
+}
+.two{
+    background-color: pink;
+}
+.three{
+    background-color: violet;
+}
+.four{
+    background-color: coral;
+}
+.five{
+    background-color: teal;
+}
+.six{
+    background-color: cornflowerblue;
+}
+.seven{
+    background-color: hotpink;
+}
+.eight{
+    background-color: maroon;
+}
+.nine{
+    background-color: gold;
+}  */
+
+
+/* body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  grid-template-rows: repeat(3, 200px); 
+  gap: 0; 
+}
+
+.box {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  font-family: "Brush Script MT", cursive;
+  font-size: 36px;
+  color: red;
+  text-align: center;
+  line-height: 1.2;
+} */

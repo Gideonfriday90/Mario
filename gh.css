@@ -1,0 +1,111 @@
+/* p{
+    text-align: center;
+    border: 5px red solid;
+    background-color: rebeccapurple;
+    position: relative;
+    right: 50px;
+    left: 50px;
+    width: 300px;
+    position: absolute;
+    bottom: 7px;
+}
+.jug{
+    border: 2px solid black;
+    width: 300px;
+    height: 100px;
+    overflow: auto;
+}
+.gon{
+     height: 100px;
+     width: 200%; 
+     */
+
+/* .overflow{
+    height: 100px;
+    width: 100%;
+    border: 1px solid ;
+    overflow: scroll;
+    overflow-x:hidden ;
+}
+.sun{
+    width: 30%;
+    height: 100px;
+    border: 1px solid;
+    overflow: scroll;
+    overflow-x: hidden;
+} */
+ .boy-1{
+    max-width: 960px;
+    margin: 100% auto;
+    width: 100%;
+    height: 600px;
+    border: 1px solid;
+    /* margin: 55px; */
+}
+ .boy-2{
+    display: flex;
+    /* flex-wrap: wrap; */
+    height: 500px;
+    /* margin: 67px; */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+ .bod{
+    width: 400px;
+    height: 100px;
+    margin: 0;
+    /* flex-grow: 1; */
+
+}
+ .one{
+    background-color: red;
+    /* flex-grow: 6; */
+    /* flex-shrink: 1; */
+}
+ .two{
+    background-color: black;
+    /* flex-grow: 45; */
+    /* flex-shrink: 2; */
+}
+ .three{
+    background-color: blue;
+    /* flex-grow: 88; */
+    /* flex-shrink: 3; */
+}
+
+ body{
+    margin: 0;
+    max-width: 100%;
+    width: 100%;
+}
+ .nav{
+    background-color: #333;
+    display: flex;
+    width: 100%;
+    /* max-width: 100%; */
+    justify-content: space-between;
+}
+ ul{
+     padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+}
+ li a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    /* text-align: center; */
+    padding: 20px 50px;
+}
+ li a:hover{
+    background-color: #555;
+}
+ li{
+    /* flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0; */
+    flex: 1 1 0;
+}
